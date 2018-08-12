@@ -1,7 +1,8 @@
-function happyHolidays() { return "Happy holidays!"}
-function happyHolidaysTo(name) {return `Happy holidays, ${name}!`}
+function happyHolidays() {return ("Happy holidays!")}
 
-function happyHolidayTo(holiday, name){return `Happy ${holiday}, ${name}!`}
+function happyHolidayTo(holiday, name) {return `Happy ${holiday}, ${name}!`}
 
-function holidayCountdown(holiday, days) {return `It\'s ${days} days until ${holiday}!`}
-holidayCountdown('mother\'s day', '20')
+function happyHolidaysTo(name) {return (`Happy holidays, ${name}!`)}
+
+function holidayCountdown(holiday, days) { return `It\'s ${days} days until ${holiday}!`}
+holidayCountdown('20','Mothers Day')  
